@@ -39,6 +39,7 @@ int key_mode_toggle = BTN_TL2;
 int key_mouse_left = BTN_TR;
 int key_mouse_middle = -1;
 int key_mouse_right = -1;
+int key_modifier = -1;
 int cursor_speed = MOVE_STEP;
 
 int screen_width = DEFAULT_SCREEN_WIDTH;
