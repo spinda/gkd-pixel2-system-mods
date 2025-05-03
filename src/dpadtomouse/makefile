@@ -1,6 +1,6 @@
 # Toolchain (ajusta esta ruta según la ubicación de tu compilador)
-CROSS_COMPILE ?= /mnt/ext-data/downloads/buildroot-2025.02/output/host/bin/aarch64-buildroot-linux-gnu-
-SYSROOT = /mnt/ext-data/downloads/buildroot-2025.02/output/host/aarch64-buildroot-linux-gnu/sysroot
+CROSS_COMPILE ?= ../../../buildroot-2025.02/output/host/bin/aarch64-buildroot-linux-gnu-
+SYSROOT = ../../../buildroot-2025.02/output/host/aarch64-buildroot-linux-gnu/sysroot
 
 # Compilador y flags
 CC = $(CROSS_COMPILE)gcc
